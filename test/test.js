@@ -29,6 +29,6 @@ describe('GET', function(){
     request
     .get('/api')
     .set('Accept', 'application/json')
-    .expect(200, {"cat":"meow","dog":"bark","eel":"hiss","bear":"growl","frog":"croak","lion":"roar","politico":"bla","bird":"pio","pez":"glu"}, done);
+    .expect(200, {"cat":"meow","dog":"bark","eel":"hiss","bear":"growl","frog":"croak","lion":"roar","politico":"bla","bird":"pio","pez":"glu","lobo":"auuuuuuuuuu"}, done);
   })
 })
